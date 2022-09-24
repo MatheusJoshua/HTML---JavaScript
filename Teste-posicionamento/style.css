@@ -1,0 +1,141 @@
+header{
+
+	background: url("fundo.jpg");
+	padding: 20px 0;
+	border: 5px solid #CCCCCC;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	transition: 0.8s;
+}
+
+header:hover{
+	transform: scale(1.03);
+
+}
+
+.titulo-header{
+
+	height: 30%;
+	transform: scale(0.7);
+}
+
+
+
+.header .container {
+	height: 250px;
+	margin: 0px auto;
+	padding-left: 15%;
+	padding-right: 25%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.lista-header{
+	display: flex;
+}
+
+.lista-header-link{
+	margin: 10px;
+	transition: 1s;
+}
+
+.lista-header-link-a:hover{
+	color: grey;
+	transform: scale(1.5);
+}
+
+.lista-header-link-a{
+
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: 1s;
+
+}
+
+.beneficios{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	margin: 40px;
+}
+
+.beneficios-nav{
+
+	display: block;
+	
+	height: 300px;
+
+	margin-bottom: 40px;
+}
+
+.lista-beneficios{
+
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	margin-left: 10%;
+	margin-right:10%;
+
+	
+	
+}
+
+.lista-beneficios-box{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	box-sizing: border-box;
+	border: 1px solid #CCC;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px #CCC;
+	transition: 0.8s;
+	
+}
+
+.lista-beneficios-box:hover{
+
+	transform: scale(1.08);
+
+
+}
+
+footer{
+	margin-top: 20px;
+	background: url("bg.jpg");
+	height: 300px;
+}
+
+.imagem-rodape{
+
+	text-align: center;
+	padding: 30px;
+	
+}
+
+.titulo-box{
+	
+	font-weight: bold;
+	padding: 5px;
+	text-transform: uppercase;
+	
+}
+
+.descricao-box{
+
+	position: relative;
+	font-weight: bold;
+	text-transform: uppercase
+
+}
+
+.imagem-box{
+	height: 80%;
+}
+	
+
+

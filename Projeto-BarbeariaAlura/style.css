@@ -1,0 +1,292 @@
+body{
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: #C78C19;
+}
+
+.produtos li:active {
+	border-color: #088C19;	
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+/* css da partiCao inicial */
+
+.banner{
+	width: 100%;
+}
+
+.titulo-principal{
+	font-size: 2em;
+	text-align: center;
+	margin: 20px 0 1em;
+}
+
+.principal{
+	margin: 0 0 1em;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.principal p{
+	margin: 0 0 1em;
+
+}
+ .principal em{
+
+ 	font-family: italic;
+ }
+
+ .principal strong{
+ 	font-weight: bold;
+ }
+
+
+
+.beneficios-section{
+	height: 0 auto;
+	margin: 0 0 2%;
+	background: linear-gradient(  #FFFFFF, #888888 30%);
+}
+
+
+.beneficios{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ .imagembeneficios{
+ 	width: 40%;
+ 	margin: 0 10%;
+ 	align-items: center;
+ 	box-shadow: 10px 10px 30px #000000;
+ 	
+ }
+
+ .lista-beneficios{
+ 	margin: 0 0 0 15%;
+ 	font-size: 2em;
+ 	flex-wrap: wrap;
+ }
+
+ .itens:nth-child(1) {
+
+ 	text-shadow: 1px 1px 1px #000000;
+ 	
+ }
+
+
+
+ .utensilios{
+ 	width: 120px;
+ 	float: left;
+ 	margin: 0 20px 20px 0;
+ }
+
+ .titulo-beneficios{
+ 	margin: 1em 0 1em;
+ 	font-size: 2em;
+ 	text-align: center;
+ }
+
+iframe{
+
+	margin: 1% 10% 1% 10%;
+}
+
+ .mapa-titulo{
+ 	text-align:center;
+ 	font-weight: bold;
+ 	margin: 2em 0 1em 0em;
+ 	font-size: 1.5em;
+ }
+
+ .mapa-corpo{
+ 	text-align: center;
+ 	font-weight: bold;
+ 	margin: 20px 0 20px 0;
+ }
+
+ .mapa-mapa{
+ 	text-align: center;
+
+}
+
+.separador-beneficio{
+	text-align: center;
+	margin: 1em 0;
+	font-weight: bold;
+	font-size: 30px;
+	color:black;
+}
+
+.video-beneficios-div{
+	display: flex;
+
+}
+
+.video-beneficios{
+	margin: 30px auto 0;
+	width: 60%;
+	height: 400px;
+	opacity: 0.85;
+}
+
+.video-beneficios:hover{
+	opacity: 1;
+	transition: 400ms;
+}
+
+@media screen and (max-width: 412px){
+
+	.banner{
+		width: 10%;
+	}
+
+}
+		
+
